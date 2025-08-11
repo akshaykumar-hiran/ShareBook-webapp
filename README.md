@@ -1,21 +1,24 @@
-#  Blabber
 
-Blabber is a modern full-stack social media web application built using the **MERN stack**. It allows users to register, log in, post updates, follow other users, receive notifications, and maintain profiles. It uses **JWT authentication** with secure HttpOnly cookies and Cloudinary for profile image uploads.
+# 📱 ShareBook
+
+**ShareBook** is a modern full-stack social media web application built using the **MERN stack**.  
+It allows users to register, log in, post updates, follow other users, receive notifications, and maintain profiles.  
+It uses **JWT authentication** with secure HttpOnly cookies and **Cloudinary** for profile image uploads.
 
 ---
 
 ## 🌐 Live Demo
 
 Hosted on:  
-🔗 **Render**: https://blabber-front.onrender.com/
-
+🔗 
 
 ---
 
 ## ⭐ Like the Project?
 
-If you find this project useful or interesting, consider **starring** 🌟 the repository to show your support! It motivates me to keep improving and adding more features.  
-👉 [Give it a Star on GitHub](https://github.com/vijayaa21/blabber)
+If you find this project useful or interesting, consider **starring** 🌟 the repository to show your support!  
+It motivates me to keep improving and adding more features.  
+👉 [Give it a Star on GitHub](https://github.com/akshaykumar-hiran/ShareBook-webapp)
 
 ---
 
@@ -48,9 +51,9 @@ If you find this project useful or interesting, consider **starring** 🌟 the r
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/blabber.git
-cd blabber
-```
+git clone https://github.com/your-username/sharebook.git
+cd sharebook
+````
 
 ---
 
@@ -152,7 +155,7 @@ res.cookie("jwt", token, {
 ## 📁 Project Structure
 
 ```
-blabber/
+sharebook/
 ├── backend/
 │   ├── controllers/
 │   ├── models/
@@ -175,10 +178,8 @@ blabber/
 
 ## 👥 Author
 
-Built by [Vijaya Mishra](https://github.com/Vijayaa21) 💻  
-Open to contributions, suggestions, and collaboration!
+Built by **Akshay Kumar Hiran** 💻
+Open to feedback, suggestions, and collaboration!
 
-## 📝 License
+```
 
-This project is licensed under the [MIT License](./LICENSE).  
-You are free to use, modify, and distribute this software under the terms of the license.
