@@ -1,0 +1,51 @@
+@import "tailwindcss";
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #0F172A; /* match your page bg */
+}
+
+@plugin "daisyui/theme" {
+  name: "dim";
+  default: true;
+  prefersdark: false;
+  color-scheme: "dark";
+
+  --color-base-100: #0f0c29; /* Deep Blue */
+  --color-base-200: #302b63; /* Indigo Base */
+  --color-base-300: #24243e; /* Blue-Violet Overlay */
+  --color-base-content: #f1efff; /* Soft text */
+
+  --color-primary: #7B2FF7; /* Vivid Purple */
+  --color-primary-content: #fefaff; /* Light text on purple */
+
+  --color-secondary: #4A00E0; /* Deep Indigo */
+  --color-secondary-content: #ffffff;
+
+  --color-accent: #8E2DE2; /* Purple Gradient Edge */
+  --color-accent-content: #ffffff;
+
+  --color-neutral: #0f0c29;
+  --color-neutral-content: #fefefe;
+
+  --color-info: #4a6cf7;
+  --color-info-content: #e9f3ff;
+
+  --color-success: #43e97b;
+  --color-success-content: #ffffff;
+
+  --color-warning: #f5af19;
+  --color-warning-content: #1e1e1e;
+
+  --color-error: #ff4e50;
+  --color-error-content: #fff1f1;
+
+  --radius-selector: 0rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.5rem;
+
+  --border: 1px;
+  --depth: 1;
+  --noise: 1;
+}
